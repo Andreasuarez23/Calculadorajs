@@ -119,7 +119,7 @@ cero.addEventListener('click', () => {
   
 
 
-
+// falta completar
 
 
 
@@ -132,3 +132,13 @@ igual.addEventListener('click', () => {
       resultado = suma(valorAnterior, valorActualNum);
     } else if (operacionActual === 'resta') {
       resultado = resta(valorAnterior, valorActualNum);
+
+
+      //falta completar
+
+      // falta el evento para boton borrar
+      // falta boton que borra el ultimo digito
+        // Borra el último dígito del valor actual
+  if (valorActualStr.length > 0) {
+    const nuevoValorStr = valorActualStr.slice(0, -1);
+    valorActual.innerText = nuevoValorStr;
